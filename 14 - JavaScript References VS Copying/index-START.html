@@ -81,6 +81,10 @@
 
     const dev = Object.assign({}, kell)
     //Object.assign is only one level deep
+
+
+    // not recommended way to update objects deep levels
+    const dev2 = JSON.parse(JSON.stringify(kell))
   </script>
 
 </body>
